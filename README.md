@@ -17,9 +17,10 @@ This repository contains a neural network-based project designed to detect brain
 Brain tumor diagnosis traditionally relies on manual inspection of MRI images, which can be time-consuming and error-prone. This project leverages CNNs for automated detection, delivering reliable classification results to streamline the diagnostic process.
 
 ## 📂 Dataset
-The dataset comprises MRI scans categorized into two classes:
-1. **Tumor** - Images indicating the presence of a brain tumor.
-2. **No Tumor** - Images with no visible tumor.
+The dataset comprises MRI scans categorized into three classes:
+1. **yes** - Images indicating the presence of a brain tumor.
+2. **no** - Images with no visible tumor.
+3. **pred** - Mix of both classes (for validation after the whole project was ready). 
 
 The data should be organized in a format compatible with common deep learning frameworks, with each class separated into distinct directories for training and testing.
 
