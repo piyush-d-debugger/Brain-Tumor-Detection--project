@@ -54,11 +54,20 @@ This structure is effective in detecting spatial hierarchies in MRI scans, makin
 ## 📊 Results
 Initial tests indicate that the CNN model performs with high accuracy in distinguishing `Tumor` and `No Tumor` images, providing a valuable diagnostic tool. Further tuning and dataset expansion may enhance accuracy.
 
+<img src="https://github.com/user-attachments/assets/d6dda7bb-7297-437b-8b1f-92ee24686e30" alt="Result Screenshot" style="border-radius: 65px;">
+
 ## 🌐 Frontend
 The project includes a frontend application developed in React to streamline user interaction:
 - **Image Upload**: Users can upload MRI images through a drag-and-drop interface using `material-ui-dropzone`.
 - **Display of Prediction Results**: After the image is processed, the prediction class and confidence score are displayed.
 - **Clear Functionality**: Users can easily reset the display and upload new images.
+
+  
+ <img src="https://github.com/user-attachments/assets/d0a43d59-537a-4662-8ce1-bbac22865149" alt="Result Screenshot" width="500" style="border-radius: 35px;">
+ <img src="https://github.com/user-attachments/assets/dc6eb399-7dfa-4669-b4bd-ff04526ba5ca" alt="Result Screenshot" width="500" style="border-radius: 35px;">
+
+
+ *Frontend Interface for MRI Image Upload and Detection*
 
 ### Frontend Components
 1. **App.js**: Main application component that renders the `ImageUpload` component.
