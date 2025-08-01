@@ -13,6 +13,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://brain-tumor-detection-project-kgi72xqe2-piyush-dokles-projects.vercel.app"
 ]
 app.add_middleware(
     CORSMiddleware,
