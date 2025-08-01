@@ -24,7 +24,7 @@ app.add_middleware(
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.normpath(os.path.join(BASE_DIR, "..", "saved_models", "1.1"))
+MODEL_PATH = os.path.normpath(os.path.join(BASE_DIR,"saved_models", "1.1"))
 
 MODEL = tf.saved_model.load(MODEL_PATH)
 
